@@ -60,7 +60,7 @@ function loginUser(dispatch, login, password, history, setIsLoading, setError) {
         username: login,
         password: password,
       };
-      axios.post(`http://3.6.37.30:8080/login`, body).then((res) => {
+      axios.post(`http://localhost:8080/server/auth/login`, body).then((res) => {
         console.log("SUCCESS", res)
         if (res.data.status === "Success"){
           

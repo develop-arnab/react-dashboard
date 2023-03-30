@@ -76,15 +76,15 @@ function Layout(props) {
               <div>
                 <Link
                   color={'primary'}
-                  href={'https://flatlogic.com/'}
+                  href={''}
                   target={'_blank'}
                   className={classes.link}
                 >
-                  Flatlogic
+                  CREATE
                 </Link>
                 <Link
                   color={'primary'}
-                  href={'https://flatlogic.com/about'}
+                  href={''}
                   target={'_blank'}
                   className={classes.link}
                 >
@@ -92,7 +92,7 @@ function Layout(props) {
                 </Link>
                 <Link
                   color={'primary'}
-                  href={'https://flatlogic.com/blog'}
+                  href={''}
                   target={'_blank'}
                   className={classes.link}
                 >
@@ -101,7 +101,7 @@ function Layout(props) {
               </div>
               <div>
                 <Link
-                  href={'https://www.facebook.com/flatlogic'}
+                  href={''}
                   target={'_blank'}
                 >
                   <IconButton aria-label="facebook">
@@ -113,7 +113,7 @@ function Layout(props) {
                   </IconButton>
                 </Link>
                 <Link
-                  href={'https://twitter.com/flatlogic'}
+                  href={''}
                   target={'_blank'}
                 >
                   <IconButton aria-label="twitter">
@@ -125,7 +125,7 @@ function Layout(props) {
                   </IconButton>
                 </Link>
                 <Link
-                  href={'https://github.com/flatlogic'}
+                  href={''}
                   target={'_blank'}
                 >
                   <IconButton

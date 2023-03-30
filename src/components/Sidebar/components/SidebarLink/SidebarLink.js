@@ -8,6 +8,7 @@ import {
   ListItemText,
   Typography,
 } from "@material-ui/core";
+import { Link as UiLink } from '@material-ui/core';
 import { Inbox as InboxIcon } from "@material-ui/icons";
 import { Link } from "react-router-dom";
 import classnames from "classnames";
@@ -35,6 +36,16 @@ export default function SidebarLink({
   var isLinkActive =
     link &&
     (location.pathname === link || location.pathname.indexOf(link) !== -1);
+
+
+    const Create = () => {
+      console.log("CLICKK")
+    }
+
+    if (type === "Create")
+    return (
+      <UiLink href="http://localhost:8080/server/create/create.html#">CREATE</UiLink>
+    );
 
   if (type === "title")
     return (

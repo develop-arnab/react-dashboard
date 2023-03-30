@@ -253,7 +253,7 @@ const Header = ({ classes, isSidebarOpened, toggleSidebar, ...props }) => (
             className={classes.profileMenuLink}
             component="a"
             color="primary"
-            href="https://flatlogic.com"
+            href=""
           >
             Flalogic.com
           </Typography>

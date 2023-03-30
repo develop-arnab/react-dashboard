@@ -32,8 +32,9 @@ import {
 const structure = [
   { id: 0, label: "Dashboard", link: "/app/dashboard", icon: <HomeIcon /> },
   {
+    type: "Create",
     id: 1,
-    label: "Typography",
+    label: "Create",
     link: "/app/typography",
     icon: <TypographyIcon />,
   },
@@ -57,9 +58,9 @@ const structure = [
   },
   { id: 5, type: "divider" },
   { id: 6, type: "title", label: "HELP" },
-  { id: 7, label: "Library", link: "https://flatlogic.com/templates", icon: <LibraryIcon /> },
-  { id: 8, label: "Support", link: "https://flatlogic.com/forum", icon: <SupportIcon /> },
-  { id: 9, label: "FAQ", link: "https://flatlogic.com/forum", icon: <FAQIcon /> },
+  { id: 7, label: "Library", link: "", icon: <LibraryIcon /> },
+  { id: 8, label: "Support", link: "", icon: <SupportIcon /> },
+  { id: 9, label: "FAQ", link: "", icon: <FAQIcon /> },
   { id: 10, type: "divider" },
   { id: 11, type: "title", label: "PROJECTS" },
   {
