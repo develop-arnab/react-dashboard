@@ -44,7 +44,7 @@ export default function SidebarLink({
 
     if (type === "Create")
     return (
-      <UiLink href="http://localhost:8080/server/create/create.html#">CREATE</UiLink>
+      <UiLink href="http://3.6.37.30:8080/server/create/create.html#">CREATE</UiLink>
     );
 
   if (type === "title")
